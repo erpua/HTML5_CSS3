@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+  font-family: "Playfair Display", serif;
+  border: solid 1px rgb(180, 173, 158);
+  margin: auto;
+}
+
+/*HEADER*/
+header {
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 102px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(98, 98, 98);
+}
+
+.lIfestyle {
+  margin-right: 121px;
+}
+
+.photodiary {
+  margin-right: 102px;
+}
+
+.music {
+  margin-right: 93px;
+}
+
+a:hover {
+  color: rgb(3, 169, 244);
+}
+
+/*MAIN*/
+
+main {
+  width: 910px;
+  margin: auto;
+}
+
+article {
+  display: inline-block;
+  width: 420px;
+}
+
+.happy-girl {
+  margin: 0 60px 130px 0;
+}
+
+.american-dream {
+  margin: 0 60px 130px 0;
+}
+
+.running-songs {
+  margin: 0 60px 54px 0;
+}
+
+img {
+  margin-bottom: 28px;
+}
+
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: rgb(180, 173, 158);
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgb(98, 98, 98);
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(98, 98, 98);
+}
+
+button {
+  display: block;
+  width: 164px;
+  height: 60px;
+  margin: 0 auto 70px;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+}
+
