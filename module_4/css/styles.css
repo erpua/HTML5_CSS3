@@ -42,7 +42,7 @@ li {
 
 .logo {
   font-weight: 400;
-  font-family: 'Roboto-Black', sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   margin-top: 18px;
   float: left;
   text-decoration: none;
@@ -66,7 +66,7 @@ li {
 }
 
 .list a {
-  font-family: 'Open', sans-serif;
+  font-family: "Open", sans-serif;
   margin-left: 27px;
   font-weight: bold;
   text-transform: uppercase;
@@ -85,13 +85,13 @@ li {
 }
 
 .navigation {
-    margin-bottom: 105px;
+  margin-bottom: 105px;
 }
 
 /*SECTION FEATURED PRODUCTS*/
 
 .items {
-  font-family: 'Roboto-Black', sans-serif;
+  font-family: "Roboto-Black", sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
@@ -102,150 +102,153 @@ li {
 }
 
 .items::after {
-    display: block;
-    margin: 32px auto 92px;
-    content: '';
-    background-color: rgb(26,188,156);
-    width: 136px;
-    height: 7px;
+  display: block;
+  margin: 32px auto 92px;
+  content: "";
+  background-color: rgb(26, 188, 156);
+  width: 136px;
+  height: 7px;
 }
 
 .catalog-item {
-    float: left;
-    list-style: none;
-    max-width: 255px;
+  float: left;
+  list-style: none;
+  max-width: 255px;
 }
 
 .product {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Roboto-Black', sans-serif;
-    font-size: 18px;
-    line-height: 32px;
-    background-color: rgb(50,50,50);
-    color: rgb(255,255,255);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  background-color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
 }
 
 a.product {
-    display: inline-block;
-    margin-top: -4px;
-    width: 202px;
-    height: 40px;
+  display: inline-block;
+  margin-top: -4px;
+  width: 202px;
+  height: 40px;
 }
 
 .price {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Roboto-Black', sans-serif;
-    font-size: 18px;
-    line-height: 32px;
-    background-color: rgb(140,140,140);
-    color: rgb(255,255,255);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  background-color: rgb(140, 140, 140);
+  color: rgb(255, 255, 255);
 }
 
 a.price {
-    display: inline-block;
-    margin: -4px;
-    width: 53px;
-    height: 40px;
+  display: inline-block;
+  margin: -4px;
+  width: 53px;
+  height: 40px;
 }
 
-a.product,a.price {
-    vertical-align: top;
-    line-height: 40px;
+a.product,
+a.price {
+  vertical-align: top;
+  line-height: 40px;
 }
 
 .catalog-item:hover .product {
-    background-color: rgb(26,188,156);
+  background-color: rgb(26, 188, 156);
 }
 
 .catalog-item:hover .price {
-    background-color: rgb(127,217,199);
+  background-color: rgb(127, 217, 199);
 }
 
 .catalog-item:not(:nth-of-type(4n)) {
-    margin-right: 26px;
+  margin-right: 26px;
 }
 
 .catalog-item:not(:nth-last-child(-n + 4)) {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .clearfix::after {
-    display: block;
-    content: '';
-    clear: both;
+  display: block;
+  content: "";
+  clear: both;
 }
 
-               /*SECTION LATEST NEWS*/
+/*SECTION LATEST NEWS*/
 
 .info {
-    margin-top: 100px;
-    text-transform: uppercase;
-    font-family: 'Roboto-Black', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: -2px;
-    font-size: 48px;
-    line-height: 32px;
-    color: rgb(85,82,82);
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-family: "Roboto-Black", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 48px;
+  line-height: 32px;
+  color: rgb(85, 82, 82);
 }
 
 .info::after {
-    display: block;
-    margin: 32px auto 76px;
-    content: '';
-    background-color: rgb(26,188,156);
-    width: 166px;
-    height: 7px;
+  display: block;
+  margin: 32px auto 76px;
+  content: "";
+  background-color: rgb(26, 188, 156);
+  width: 166px;
+  height: 7px;
 }
 
 article {
-    width: 347px;
-    float: left;
+  width: 347px;
+  float: left;
 }
 
-article:not(:nth-of-type(3n)){
-    margin-right: 30px;
+article:not(:nth-of-type(3n)) {
+  margin-right: 30px;
 }
 
 .describing {
-    font-family: 'Open-Sans', sans-serif;
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    color: rgb(85,82,82);
+  font-family: "Open-Sans", sans-serif;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(85, 82, 82);
 }
 
 .describing::after {
-    display: block;
-    margin: 10px 0 26px;
-    content: '';
-    background-color: rgb(78,198,171);
-    height: 3px;
-    width: 136px;
+  display: block;
+  margin: 10px 0 26px;
+  content: "";
+  background-color: rgb(78, 198, 171);
+  height: 3px;
+  width: 136px;
 }
 
 p {
-    font-family:'Open', sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    color: rgb(85,82,82);
+  font-family: "Open", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb(85, 82, 82);
 }
 
-button {
-    font-family:'Open-Sans', sans-serif;
-    font-size: 16px;
-    line-height: 52px;
-    font-weight: normal;
-    width: 161px;
-    height: 52px;
-    background-color: rgb(78,188,156);
-    color: rgb(255,255,255);
-    border-radius: 5px;
-    border: 0;
-    margin: 10px 0 82px;
+a.button {
+  display: block;
+  width: 161px;
+  height: 52px;
+  text-align: center;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 16px;
+  line-height: 52px;
+  font-weight: normal;
+   background-color: rgb(78, 188, 156);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 0;
+  margin: 10px 0 82px;
 }
