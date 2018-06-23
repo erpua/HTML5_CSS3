@@ -3,34 +3,10 @@
   padding: 0;
 }
 
-/*HIDING h1*/
-
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-/*BODY*/
-
-body {
-  max-width: 1102px;
+header {
+  width: 1113px;
   margin: auto;
 }
-
-/*NAVIGATION*/
 
 a {
   text-decoration: none;
@@ -41,8 +17,8 @@ li {
 }
 
 .logo {
-  font-weight: 400;
-  font-family: "Roboto-Black", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   margin-top: 18px;
   float: left;
   text-decoration: none;
@@ -66,7 +42,7 @@ li {
 }
 
 .list a {
-  font-family: "Open", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-left: 27px;
   font-weight: bold;
   text-transform: uppercase;
@@ -78,20 +54,25 @@ li {
   color: rgb(26, 188, 156);
 }
 
+.navigation {
+  margin-bottom: 105px;
+}
+
 .clearfix::after {
   display: block;
   content: "";
   clear: both;
 }
 
-.navigation {
-  margin-bottom: 105px;
-}
-
 /*SECTION FEATURED PRODUCTS*/
 
+.featured-products {
+  width: 1113px;
+  margin: auto;
+}
+
 .items {
-  font-family: "Roboto-Black", sans-serif;
+  font-family: 'Roboto-Black', sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
@@ -120,7 +101,7 @@ li {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Roboto-Black", sans-serif;
+  font-family: 'Roboto-Black', sans-serif;
   font-size: 18px;
   line-height: 32px;
   background-color: rgb(50, 50, 50);
@@ -138,7 +119,7 @@ a.product {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Roboto-Black", sans-serif;
+  font-family: 'Roboto-Black', sans-serif;
   font-size: 18px;
   line-height: 32px;
   background-color: rgb(140, 140, 140);
@@ -167,7 +148,7 @@ a.price {
 }
 
 .catalog-item:not(:nth-of-type(4n)) {
-  margin-right: 26px;
+  margin-right: 30px;
 }
 
 .catalog-item:not(:nth-last-child(-n + 4)) {
@@ -202,9 +183,15 @@ a.price {
   width: 166px;
   height: 7px;
 }
+/*ARTICLES*/
+
+.latest-news {
+  width: 1113px;
+  margin: auto;
+}
 
 article {
-  width: 347px;
+  width: 351px;
   float: left;
 }
 
@@ -213,9 +200,9 @@ article:not(:nth-of-type(3n)) {
 }
 
 .describing {
-  font-family: "Open-Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   margin-top: 5px;
-  font-weight: bold;
   font-size: 18px;
   line-height: 26px;
   color: rgb(85, 82, 82);
@@ -231,7 +218,8 @@ article:not(:nth-of-type(3n)) {
 }
 
 p {
-  font-family: "Open", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   color: rgb(85, 82, 82);
@@ -242,11 +230,11 @@ a.button {
   width: 161px;
   height: 52px;
   text-align: center;
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 52px;
-  font-weight: normal;
-   background-color: rgb(78, 188, 156);
+  font-weight: 300;
+  background-color: rgb(78, 188, 156);
   color: rgb(255, 255, 255);
   border-radius: 5px;
   border: 0;
