@@ -6,7 +6,6 @@
 body {
   width: 960px;
   font-family: "Playfair Display", serif;
-  border: solid 1px rgb(180, 173, 158);
   margin: auto;
 }
 
@@ -97,7 +96,7 @@ p {
   color: rgb(98, 98, 98);
 }
 
-button {
+a.button {
   display: block;
   width: 164px;
   height: 60px;
@@ -105,6 +104,9 @@ button {
   font-family: "Playfair Display", serif;
   text-decoration: none;
   font-size: 20px;
+  line-height: 60px;
+  text-align: center;
   color: rgb(98, 98, 98);
+  border: 1px solid rgb(100, 100, 100);
 }
 
