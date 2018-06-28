@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-/*
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
-
 /*HEADER*/
 
 .logo {
@@ -42,10 +37,7 @@ font-family: 'Open Sans', sans-serif;
   color: rgb(15, 1, 1);
 }
 
-.link:not(:nth-of-type(n)) {
-  margin-left: 35px;
-}
-
+.link:not(:nth-of-type(n)),
 .link:not(:nth-of-type(6n)) {
   margin-left: 35px;
 }
@@ -70,24 +62,31 @@ header {
   clear: both;
 }
 
-/* SCTION  MAIN-IMG*/
+/* SECTION  MAIN-IMG*/
 
 .main-img {
-  position: relative;
+    position: relative;
   background-image: linear-gradient(
       rgba(24, 24, 25, 0.49),
       rgba(24, 24, 25, 0.49)
     ),
     url(../img/walking-girls.jpg);
-  background-size: 100%;
+  background-size: cover;
   height: 76vh;
+}
+
+.img-offer {
+    position: absolute;
+    width: 1025px;
+    height: 105px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-button {
   position: absolute;
   display: block;
-  left: 180px;
-  top: 190px;
   width: 105px;
   height: 105px;
   background-color: rgb(26, 188, 156);
@@ -99,8 +98,8 @@ header {
 .img-description {
   position: absolute;
   display: block;
-  left: 300px;
-  top: 170px;
+  left: 170px;
+  top: -25px;
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
@@ -113,8 +112,8 @@ header {
 .img-guids {
   position: absolute;
   display: block;
-  left: 300px;
-  top: 250px;
+  left: 170px;
+  top: 65px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 24px;
@@ -125,8 +124,7 @@ header {
 .right-button {
   position: absolute;
   display: block;
-  left: 1010px;
-  top: 190px;
+  left: 920px;
   width: 105px;
   height: 105px;
   background-color: rgb(26, 188, 156);
@@ -268,8 +266,9 @@ main {
 
 .catalog-item:hover .icon-button {
     opacity: 1;
+    transition: opacity 0.4s ease-in;
 }
-
+  
 .button-heart,
 .button-mixed-arrows,
 .button-watch {
@@ -297,8 +296,12 @@ main {
     width: 166px;
     height: 50px;
     cursor: pointer;
-    opacity: 0.55;
     margin-top: 7px;
+    opacity: 0.55;
+}
+
+.button-cart:hover {
+    opacity: 1;
 }
 
 span.add-item {
@@ -309,9 +312,6 @@ span.add-item {
     font-family:'Open' ,sans-serif;
 }
 
-.button-cart:hover {
-    opacity: 1;
-}
 
 /*FOOTER*/
 
