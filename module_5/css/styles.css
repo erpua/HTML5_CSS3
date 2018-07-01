@@ -269,8 +269,30 @@ main {
     transition: opacity 0.4s ease-in;
 }
   
-.button-heart,
-.button-mixed-arrows,
+.button-heart {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button-heart img {
+    margin-bottom: 1px;
+}
+
+.button-mixed-arrows {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button-mixed-arrows img {
+    margin-bottom: 2px;
+}
+
 .button-watch {
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
@@ -279,7 +301,11 @@ main {
     cursor: pointer;
 }
 
-.button-heart,
+.button-watch img {
+margin-bottom: -1px;
+}
+
+.button-heart, 
 .button-mixed-arrows {
     margin-right: 3px;
 }
@@ -296,12 +322,17 @@ main {
     width: 166px;
     height: 50px;
     cursor: pointer;
-    margin-top: 7px;
+    margin-top: 8px;
     opacity: 0.55;
 }
 
 .button-cart:hover {
     opacity: 1;
+}
+
+.store-cart {
+    position: absolute;
+    top: 70px;
 }
 
 span.add-item {
@@ -310,6 +341,7 @@ span.add-item {
     font-size: 14px;
     line-height: 48px;
     font-family:'Open' ,sans-serif;
+    margin-left: 40px;
 }
 
 
