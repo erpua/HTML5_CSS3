@@ -192,25 +192,25 @@
 
 .member-image:hover .gradient {
   opacity: 0.8;
+  transform: translate(-10px, -10px);
+  transition: all .2s linear;
   cursor: pointer;
 }
 
 .member-image:hover > img {
   transform: translate(-10px, -10px);
-  transition-duration: 200ms;
-}
-
-.member-image:hover .gradient {
-  transform: translate(-10px, -10px);
-  transition-duration: 200ms;
+  transition: all .2s linear;
 }
 
 .icons-row {
   display: flex;
+  position: absolute;
   width: 380px;
   height: 470px;
   justify-content: center;
   align-items: center;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 .icon {
@@ -221,6 +221,8 @@
   background: rgb(252, 227, 138);
   margin-left: 1px;
   z-index: 4;
+  transition: all .35s linear;
+  cursor: pointer;
 }
 
 .member-image:hover .icon {
@@ -229,6 +231,7 @@
 
 .icon:hover {
   background: rgb(149, 225, 211);
+  transition: all .2s linear;
 }
 
 .member-card > h3 {
@@ -273,7 +276,7 @@
 }
 
 .footer > span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17px;
 }
@@ -281,7 +284,7 @@
 .address {
   text-decoration: none;
   cursor: pointer;
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
 }
 
 .address:hover {
@@ -299,7 +302,7 @@ input {
 }
 
 .subscribe {
-  display:inline-block;
+  display: inline-block;
   width: 150px;
   height: 40px;
   background-color: rgb(149, 225, 211);
@@ -309,6 +312,10 @@ input {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
+}
+
+.button input[type="text"] {
+  padding-left: 15px; 
 }
