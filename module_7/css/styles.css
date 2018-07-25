@@ -84,7 +84,8 @@ a {
   color: rgb(34, 34, 34);
 }
 
-.site-navigation__link:hover {
+.site-navigation__link:hover,
+.site-navigation__link:focus {
   color: rgb(254, 209, 54);
   transition: all 0.1s linear;
 }
