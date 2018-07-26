@@ -36,10 +36,6 @@
   margin: 0;
 }
 
-.page {
-  margin: auto;
-}
-
 li {
   list-style: none;
 }
@@ -129,7 +125,7 @@ a {
 }
 
 .services-features__item {
-  max-width: 275px;
+  max-width: 290px;
   margin-top: 76px;
 }
 
@@ -149,7 +145,7 @@ a {
   font-weight: 400;
   color: rgb(119, 119, 119);
   font-style: 14px;
-  line-height: 17px;
+  line-height: 23px;
 }
 
 .picture {
@@ -182,6 +178,8 @@ a {
 /*----------SECTION-FEEDBACK------------*/
 
 .feedback {
+  width: 100%;
+  height: 676px;
   background-color: rgb(34, 34, 34);
   background-image: url(../img/Map\ image.png);
   background-repeat: no-repeat;
@@ -237,7 +235,7 @@ a {
   padding: 20px;
   border: none;
   margin: 0 0 28px 0;
-  color: black;
+  color: rgb(187, 187, 187);
 }
 
 input::placeholder,
@@ -270,7 +268,7 @@ textarea[name='user_message']:focus:invalid {
   resize: none;
   padding: 20px;
   margin: 0 20px 0 20px;
-  color: black;
+  color: rgb(187, 187, 187);
   overflow: auto;
 }
 
