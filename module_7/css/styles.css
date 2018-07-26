@@ -37,7 +37,6 @@
 }
 
 .page {
-  max-width: 1400px;
   margin: auto;
 }
 
@@ -98,9 +97,9 @@ a {
 
 /*-------------SECTION SERVICES--------------------*/
 
-.services {
+.services-section {
   max-width: 936px;
-  margin: 0 auto;
+  margin: 0 auto 118px;
 }
 
 .services-section-title {
@@ -183,13 +182,10 @@ a {
 /*----------SECTION-FEEDBACK------------*/
 
 .feedback {
-  width: 1400px;
-  height: 677px;
   background-color: rgb(34, 34, 34);
-  background-image: url(../img/Map\image.png);
+  background-image: url(../img/Map\ image.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  margin-top: 118px;
 }
 
 .feedback-title {
