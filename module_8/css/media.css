@@ -1,0 +1,86 @@
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 768px;
+    background-image: url(../img/bcgrimg_tablet.jpg);
+  }
+  /*------HEADER----*/
+  .header-page {
+    width: 768px;
+    padding-top: 40px;
+    width: 670px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 auto 148px;
+  }
+  .user-access {
+    height: 40px;
+    margin: 0;
+  }
+  .page-logo {
+    margin-bottom: 0;
+  }
+  /*---SECTION PROMO---*/
+  .section-promo__title {
+    width: 480px;
+    margin: 0 auto 42px;
+    font-size: 52px;
+    line-height: 62px;
+  }
+  .section-promo__description {
+    width: 400px;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 auto 34px;
+  }
+  .section-promo__button {
+    margin: 0 auto 270px;
+  }
+  /*---SECTION PARTNERS---*/
+  .partners-title {
+    width: 400px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 auto 30px;
+  }
+  .partners-list {
+    width: 462px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .icon-tv {
+    left: 130px;
+  }
+  .icon-chemistry__vase {
+    left: 130px;
+  }
+  .icon-coffee__cup {
+    left: 130px;
+  }
+  .icon-paper__plane {
+    left: 130px;
+  }
+  
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    max-width: 1440px;
+    background-image: url(../img/bckgrimg_desktop.jpg);
+    background-size: contain;
+  }
+  .header-page {
+    width: 940px;
+  }
+  .partners-list {
+      width: 916px;
+  }
+
+  .see-other-partners__button {
+      margin: 0 auto 74px;
+  }
+}
