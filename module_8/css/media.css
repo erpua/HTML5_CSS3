@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
-  .wrapper {
-    max-width: 768px;
+  .promo {
+    min-width: 768px;
+    height: 700px;
     background-image: url(../img/bcgrimg_tablet.jpg);
   }
   /*------HEADER----*/
@@ -52,35 +53,22 @@
     justify-content: space-between;
     margin: 0 auto;
   }
-  .icon-tv {
-    left: 130px;
-  }
-  .icon-chemistry__vase {
-    left: 130px;
-  }
-  .icon-coffee__cup {
-    left: 130px;
-  }
-  .icon-paper__plane {
-    left: 130px;
-  }
-  
 }
 
 @media screen and (min-width: 1440px) {
-  .wrapper {
-    max-width: 1440px;
+  .promo {
+    min-width: 100%;
     background-image: url(../img/bckgrimg_desktop.jpg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .header-page {
     width: 940px;
   }
   .partners-list {
-      width: 916px;
+    width: 916px;
   }
-
   .see-other-partners__button {
-      margin: 0 auto 74px;
+    margin: 0 auto 74px;
   }
 }

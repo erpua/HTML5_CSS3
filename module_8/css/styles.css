@@ -1,22 +1,8 @@
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/montserrat-v12-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   src: url("../fonts/montserrat-v12-latin-700.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/montserrat-v12-latin-900.woff2") format("woff2");
 }
 
 @font-face {
@@ -27,27 +13,20 @@
 }
 
 /*--------------------------------------------*/
-
-.wrapper {
-  max-width: 320px;
-  background-image: url(../img/bckgrimg_mobile.jpg);
-  margin: 0 auto;
-  background-repeat: no-repeat;
-}
-
 body,
 button {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
-
-/*           HEADER-----------*/
-.container {
+.promo {
   max-width: 320px;
-  margin: 0 auto;
+  height: 540px;
+  background-image: url(../img/bckgrimg_mobile.jpg);
+  margin: 0 auto 68px;
 }
 
+/*           HEADER-----------*/
 .header-page {
   padding-top: 20px;
 }
@@ -75,6 +54,15 @@ button {
   height: 40px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
+}
+
+.login-button:hover,
+.sign-up__button:hover,
+.login-button:focus,
+.sign-up__button:focus {
+  color: rgb(255, 78, 80);
+  border-color: rgb(255, 78, 80);
+  transition: 0.3s ease;
 }
 
 .page-logo {
@@ -119,9 +107,16 @@ button {
   background-color: rgb(255, 78, 80);
   border: none;
   border-radius: 20px;
-  margin: 0 auto 180px;
+  margin: 0 auto;
 }
 
+.section-promo__button:hover,
+.section-promo__button:focus {
+  background-color: transparent;
+  color: rgb(255, 78, 80);
+  border: 2px solid rgb(255, 78, 80);
+  transition: 0.3s ease;
+}
 /*---------SECTION PARTNERS----------*/
 
 ul {
@@ -142,24 +137,24 @@ li {
   margin: 0 auto 20px;
 }
 
+.partner-photo {
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 20px;
+}
+
 .first-partner__photo,
 .second-partner__photo,
 .third-partner__photo,
 .fourth-partner__photo {
-  display: block;
-  max-width: 100%;
-  height: auto;
   border-radius: 50%;
-  margin: 0 auto 20px;
-}
-
-.partner-photo {
-  position: relative;
 }
 
 .icon-tv {
   position: absolute;
-  left: 190px;
+  right: 0;
   bottom: 0;
   line-height: 33px;
   text-align: center;
@@ -172,7 +167,7 @@ li {
 
 .icon-chemistry__vase {
   position: absolute;
-  left: 190px;
+  right: 0;
   bottom: 0;
   line-height: 33px;
   text-align: center;
@@ -185,7 +180,7 @@ li {
 
 .icon-coffee__cup {
   position: absolute;
-  left: 190px;
+  right: 0;
   bottom: 0;
   line-height: 33px;
   text-align: center;
@@ -198,7 +193,7 @@ li {
 
 .icon-paper__plane {
   position: absolute;
-  left: 190px;
+  right: 0;
   bottom: 0;
   line-height: 33px;
   text-align: center;
