@@ -1,9 +1,11 @@
 @media screen and (min-width: 768px) {
-  .promo {
-    min-width: 768px;
-    height: 700px;
-    background-image: url(../img/bcgrimg_tablet.jpg);
-  }
+ .promo {
+   max-width: 100%;
+   background-image: url(../img/bckgrimg_desktop.jpg);
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: cover;
+ }
   /*------HEADER----*/
   .header-page {
     width: 768px;
@@ -52,6 +54,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 918px) {
+.partners-list {
+    width: 918px;
   }
 }
 
