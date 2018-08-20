@@ -1,10 +1,7 @@
 @media screen and (min-width: 768px) {
  .promo {
    max-width: 100%;
-   background-image: url(../img/bckgrimg_desktop.jpg);
-   background-repeat: no-repeat;
-   background-position: center top;
-   background-size: cover;
+   height: 700px;
  }
   /*------HEADER----*/
   .header-page {
@@ -67,8 +64,6 @@
   .promo {
     min-width: 100%;
     background-image: url(../img/bckgrimg_desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .header-page {
     width: 940px;

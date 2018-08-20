@@ -20,10 +20,17 @@ button {
   font-weight: 700;
 }
 .promo {
-  max-width: 320px;
+  max-width: 100%;
   height: 540px;
+  background-image: url(../img/bckgrimg_desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  margin: 0 auto 64px;
+  /*
   background-image: url(../img/bckgrimg_mobile.jpg);
-  margin: 0 auto 68px;
+  
+  */
 }
 
 /*           HEADER-----------*/
