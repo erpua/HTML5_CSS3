@@ -27,10 +27,6 @@ button {
   background-position: center top;
   background-size: cover;
   margin: 0 auto 64px;
-  /*
-  background-image: url(../img/bckgrimg_mobile.jpg);
-  
-  */
 }
 
 /*           HEADER-----------*/
@@ -40,7 +36,7 @@ button {
 
 .user-access {
   display: flex;
-  width: 160px;
+  width: 50%;
   justify-content: space-between;
   margin: 0 auto 118px;
 }
