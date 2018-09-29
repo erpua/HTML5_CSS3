@@ -1,0 +1,8 @@
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .wrapper {
+        background-image: linear-gradient(rgba(243, 129, 129, .9),
+            rgba(252, 227, 138, .9)),
+            url(../img/eagle@2x-min.jpg);
+    }
+}
