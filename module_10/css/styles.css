@@ -313,7 +313,7 @@
     color: rgb(153, 153, 153);
 }
 
-/*---------UL TEAM LIST ------*/
+/*---------UL TEAM__LIST ------*/
 
 .team__list {
     display: -webkit-box;
@@ -420,9 +420,9 @@
 
 .socials__item:hover .socials__icon {
     fill: rgb(255, 255, 255);
-    -webkit-transition: fill .3s linear;
-    -o-transition: fill .3s linear;
-    transition: fill .3s linear;
+    -webkit-transition: fill .35s linear;
+    -o-transition: fill .35s linear;
+    transition: fill .35s linear;
 }
 
 /*-------TEAM-MEMBER NAME, POSITION----*/

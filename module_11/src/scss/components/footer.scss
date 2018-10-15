@@ -1,0 +1,37 @@
+.page__footer {
+  position: relative;
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.licension {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: $font-title-dark;
+}
+
+.licension__link {
+  color: $pseudo-underline-light;
+}
+
+input[type="text"] {
+  width: 230px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  border: 1px solid $input-type-text;
+  padding-left: 12px;
+}
+
+input::placeholder {
+  color: $input-placeholder-text;
+}
+

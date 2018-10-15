@@ -1,0 +1,39 @@
+.introduction {
+  width: 840px;
+  margin: 0 auto 274px;
+}
+
+.introduction-title {
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  color: $main-font-white;
+  font-size: 72px;
+  line-height: 86px;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.introduction-paragraph {
+  font-size: 150px;
+  line-height: 140px;
+  text-transform: uppercase;
+  color: $main-font-white;
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.introduction-button {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid $main-font-white;
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-transform: uppercase;
+  color: $main-font-white;
+  font-size: 14px;
+}

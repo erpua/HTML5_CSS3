@@ -1,0 +1,32 @@
+.team__member--name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  color: $font-title-dark;
+  text-align: center;
+}
+
+.team__member--position {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter italic;
+  font-style: italic;
+  color: $font-paragraph-light;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.team::after {
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 1px;
+  background-color: $underline-light;
+}
+
+.team__list {
+  margin-bottom: 84px;
+}

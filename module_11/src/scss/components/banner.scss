@@ -1,0 +1,19 @@
+.banner {
+  max-width: 100%;
+  height: 1000px;
+  background-image: linear-gradient(rgba(243, 129, 129, 0.902),
+    rgba(252, 227, 138, 0.902)),
+    url(../img/eagle-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .banner {
+      background-image: linear-gradient(rgba(243, 129, 129, .9),
+        rgba(252, 227, 138, .9)),
+        url(../img/eagle@2x-min.jpg);
+    }
+  }
+}

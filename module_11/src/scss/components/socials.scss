@@ -1,0 +1,37 @@
+.socials {
+  display: flex;
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.socials__item {
+  display: flex;
+  opacity: 0;
+  width: 50px;
+  height: 54px;
+  line-height: 54px;
+  background: $primary-accent-yellow;
+  margin-left: 1px;
+  z-index: 4;
+  transition: all .35s linear;
+  cursor: pointer;
+}
+
+.team__member:hover .socials__item {
+  opacity: 1;
+}
+
+.socials__icon {
+  margin: auto;
+  fill: $pseudo-underline-light;
+}
+
+.socials__item:hover .socials__icon {
+  fill: $main-font-white;
+  transition: fill .35s linear;
+}

@@ -1,0 +1,15 @@
+.subscribe__button {
+  border: none;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-color: $color-bg-light;
+  margin-left: -4px;
+  line-height: 40px;
+  text-align: center;
+  color: $main-font-white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}

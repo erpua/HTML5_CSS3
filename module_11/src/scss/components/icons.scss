@@ -1,0 +1,15 @@
+.icon {
+  text-decoration: none;
+}
+
+.icon-searching,
+.icon-cart {
+  fill: $main-font-white;
+}
+
+.site-navigation__item:hover .icon-searching,
+.site-navigation__item:focus .icon-searching,
+.site-navigation__item:hover .icon-cart,
+.site-navigation__item:hover .icon-cart {
+  fill: $primary-accent-yellow;
+}
