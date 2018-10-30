@@ -1,34 +1,38 @@
 .socials {
-  display: flex;
+  @extend %socials;
+
   position: absolute;
   width: 380px;
   height: 470px;
-  justify-content: center;
-  align-items: center;
   margin-left: -10px;
   margin-top: -10px;
-}
 
-.socials__item {
-  display: flex;
-  opacity: 0;
-  width: 50px;
-  height: 54px;
-  line-height: 54px;
-  background: $primary-accent-yellow;
-  margin-left: 1px;
-  z-index: 4;
-  transition: all .35s linear;
-  cursor: pointer;
+  &__item {
+    display: flex;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    background: $primary-accent-yellow;
+    margin-left: 1px;
+    z-index: 4;
+    transition: all .35s linear;
+    cursor: pointer;
+  }
+
+  &__link {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+
+  &__icon {
+    margin: auto;
+    fill: $color-bg-red;
+  }
 }
 
 .team__member:hover .socials__item {
   opacity: 1;
-}
-
-.socials__icon {
-  margin: auto;
-  fill: $pseudo-underline-light;
 }
 
 .socials__item:hover .socials__icon {

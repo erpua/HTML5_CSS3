@@ -8,7 +8,7 @@
 }
 
 .features__paragraph {
-  font-family: "Montserrat";
+  font-family: $main-font-stack;
   font-weight: 800;
   font-size: 30px;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
   display: block;
   width: 60px;
   height: 3px;
-  background-color: $pseudo-underline-light;
+  background-color: $color-bg-red;
   margin: 36px auto 60px;
 }
 
@@ -41,7 +41,7 @@
 
 .features__item--title {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font-stack;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -61,5 +61,5 @@
 .features__icon {
   position: absolute;
   margin-top: 5px;
-  fill: $color-bg-light;
+  fill: $color-bg-blue;
 }

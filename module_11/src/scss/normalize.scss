@@ -9,8 +9,10 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -43,9 +45,12 @@ h1 {
    */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -54,8 +59,10 @@ hr {
    */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -75,9 +82,12 @@ a {
    */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -97,8 +107,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -168,8 +180,7 @@ textarea {
 
 button,
 input {
-  /* 1 */
-  overflow: visible;
+  /* 1 */ overflow: visible;
 }
 
 /**
@@ -179,8 +190,7 @@ input {
 
 button,
 select {
-  /* 1 */
-  text-transform: none;
+  /* 1 */ text-transform: none;
 }
 
 /**
@@ -195,8 +205,7 @@ button,
 }
 
 /**
-   * Remove the inner border and padding in Firefox.
-   */
+   * Remove the inner border and padding in Firefox. */
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -207,8 +216,7 @@ button::-moz-focus-inner,
 }
 
 /**
-   * Restore the focus styles unset by the previous rule.
-   */
+   * Restore the focus styles unset by the previous rule.  */
 
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
@@ -218,12 +226,9 @@ button:-moz-focusring,
 }
 
 /**
-   * Correct the padding in Firefox.
-   */
+   * Correct the padding in Firefox. */
 
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+fieldset {padding: 0.35em 0.75em 0.625em;}
 
 /**
    * 1. Correct the text wrapping in Edge and IE.
@@ -242,20 +247,16 @@ legend {
 }
 
 /**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
-   */
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera. */
 
 progress {
   vertical-align: baseline;
 }
 
 /**
-   * Remove the default vertical scrollbar in IE 10+.
-   */
+   * Remove the default vertical scrollbar in IE 10+. */
 
-textarea {
-  overflow: auto;
-}
+textarea {overflow: auto;}
 
 /**
    * 1. Add the correct box sizing in IE 10.
@@ -264,8 +265,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -283,8 +286,10 @@ textarea {
    */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -301,8 +306,10 @@ textarea {
    */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive

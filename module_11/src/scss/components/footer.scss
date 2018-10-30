@@ -10,14 +10,14 @@
 }
 
 .licension {
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font-stack;
   font-size: 14px;
   line-height: 17px;
   color: $font-title-dark;
-}
 
-.licension__link {
-  color: $pseudo-underline-light;
+  &__link {
+    color: $color-bg-red;
+  }
 }
 
 input[type="text"] {
@@ -27,11 +27,10 @@ input[type="text"] {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-style: italic;
-  border: 1px solid $input-type-text;
+  border: 1px solid $color-input-text;
   padding-left: 12px;
 }
 
 input::placeholder {
-  color: $input-placeholder-text;
+  color: $color-placeholder-text;
 }
-

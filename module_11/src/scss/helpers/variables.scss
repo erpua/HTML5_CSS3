@@ -1,9 +1,15 @@
+$main-font-stack: 'Montserrat', sans-serif;
+
 $main-font-white: rgb(255, 255, 255);
-$primary-accent-yellow:rgb(252, 227, 138);
+$primary-accent-yellow: rgb(252, 227, 138);
+$gradient-banner-top: rgba(243, 129, 129, 0.902);
+$gradient-banner-bottom:rgba(252, 227, 138, 0.902);
 $font-title-dark: rgb(51, 51, 51);
 $font-paragraph-light: rgb(153, 153, 153);
-$pseudo-underline-light: rgb(243, 129, 129);
-$color-bg-light: rgb(149, 225, 214);
-$underline-light: rgb(229, 229, 229);
-$input-type-text: rgb(233, 233, 233);
-$input-placeholder-text: rgb(203, 203, 203);
+$color-bg-red: rgb(243, 129, 129);
+$gradient-card-top: rgb(241, 145, 140);
+$gradient-card-bottom: rgb(230, 207, 130);
+$color-bg-blue: rgb(149, 225, 214);
+$color-underline-light: rgb(229, 229, 229);
+$color-input-text: rgb(233, 233, 233);
+$color-placeholder-text: rgb(203, 203, 203);
