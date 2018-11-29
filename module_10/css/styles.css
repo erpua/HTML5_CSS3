@@ -115,6 +115,7 @@
 .site-navigation__item {
     position: relative;
 }
+
 .site-navigation__item::after {
     content: "";
     border-bottom: 3px solid rgb(252, 227, 138);
@@ -149,8 +150,9 @@
 .site-navigation__item:focus .icon-searching,
 .site-navigation__item:hover .icon-cart,
 .site-navigation__item:hover .icon-cart {
-     fill: rgb(252, 227, 158);
+    fill: rgb(252, 227, 158);
 }
+
 /*---------------------------MAIN-------------------*/
 
 /*-------------------SECTION INTRODUCTION-----------*/
@@ -340,6 +342,9 @@
     width: 380px;
     height: 470px;
     z-index: 2;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .team__member--gradient {
@@ -352,6 +357,9 @@
     background-image: linear-gradient(#f1918c, #e6cf82);
     opacity: 0;
     z-index: 3;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .team__member:hover .team__member--gradient {
@@ -359,9 +367,8 @@
     -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
+
+
     cursor: pointer;
 }
 
@@ -369,9 +376,7 @@
     -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
+
 }
 
 /*----SOCIALS -------*/
@@ -518,16 +523,16 @@ input::placeholder {
 }
 
 .subscribe__button {
-     display: inline-block;
-     width: 150px;
-     height: 40px;
-     background-color: rgb(149, 225, 211);
-     margin-left: -4px;
-     line-height: 40px;
-     text-align: center;
-     color: rgb(255, 255, 255);
-     text-transform: uppercase;
-     font-family: "Montserrat", sans-serif;
-     font-weight: bold;
-     font-size: 14px;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(149, 225, 211);
+    margin-left: -4px;
+    line-height: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
